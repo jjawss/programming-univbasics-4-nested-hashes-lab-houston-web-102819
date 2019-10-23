@@ -81,8 +81,12 @@ def adding_matz
           :languages => ["C"]
         }
      }
+<<<<<<< HEAD
   programmer_hash[:yukihiro_matsumoto] = {:known_for => "Ruby", :languages => ["LISP", "C"]}
   return programmer_hash
+=======
+  return programmer_hash = :yukihiro_matsumoto => "Portals"
+>>>>>>> bf690a92b2f5be9792a17cfd7f4321975eca00d7
 end
 
   def changing_alan
@@ -104,8 +108,12 @@ end
      #change what Alan Kay is :known_for to the value of the alans_new_info variable. 
      alans_new_info = "GUI"
      
+<<<<<<< HEAD
     programmer_hash[:alan_kay][:known_for] = alans_new_info
   return programmer_hash
+=======
+  return programmer_hash[:alan_kay][:known_for] = "GUI"
+>>>>>>> bf690a92b2f5be9792a17cfd7f4321975eca00d7
 end
 
 def adding_to_dennis
